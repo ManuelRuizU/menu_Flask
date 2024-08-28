@@ -1,0 +1,157 @@
+{
+    "promociones": {
+        "Promociones del Chef": {
+            "40_del_Chef": {
+                "id": 1,
+                "nombre": "40 del Chef",
+                "descripcion": " 40 piezas del Chef: Un surtido selecto de nuestras mejores piezas, incluye 10 piezas fritas de pollo y queso, 10 piezas fritas de kanikama con ceboll\u00c3\u00adn y queso, 10 piezas envueltas en nori con palta y queso, y 10 piezas envueltas en palta con camar\u00c3\u00b3n apanado y queso.",
+                "precio": 11000,
+                "foto": "sushi9.jpg"
+            },
+            "50_del_Chef": {
+                "id": 2,
+                "nombre": "50 del Chef",
+                "descripcion": "Nuestra promocion estrella con 50 piezas variadas para los amantes del sushi, contiene 10 piezas fritas de pollo y queso, 10 piezas fritas de kanikama con ceboll\u00c3\u00adn y queso, 10 piezas envueltas en s\u00c3\u00a9samo con pollo, ceboll\u00c3\u00adn y queso, 10 piezas envueltas en nori con palta y queso, y 10 piezas envueltas en palta con camar\u00c3\u00b3n apanado y queso.",
+                "precio": 12000,
+                "foto": "sushi9.jpg"
+            },
+            "60_del_Chef": {
+                "id": 3,
+                "nombre": "60 del Chef",
+                "descripcion": "10 piezas fritas de pollo queso, 10 piezas fritas de kanikama cebollin queso, 10 piezas envueltas en palta camaron apanado queso, 10 piezas envueltas en sesamo kanikama pimenton queso, 10 piezas envueltas en ciboulette palta queso 10 piezas futomaki vegetarianas a eleccion del chef.",
+                "precio": 14000,
+                "foto": "sushi9.jpg"
+            },
+            "70_del_Chef": {
+                "id": 4,
+                "nombre": "70 del Chef",
+                "descripcion": "10 piezas fritas de pollo queso, 10 piezas fritas de kanikama cebollin queso, 10 piezas envueltas en palta camaron apanado queso, 10 piezas envueltas en sesamo kanikama pimenton queso, 10 piezas envueltas en ciboulette palta queso, 20 piezas futomaki vegetarianas a eleccion del chef.",
+                "precio": 15000,
+                "foto": "sushi9.jpg"
+            }
+        },
+        "Promociones Vip": {
+            "20_Vip": {
+                "id": 5,
+                "nombre": "20 Vip",
+                "descripcion": "10 piezas fritas de pollo queso, 10 piezas de camaron apanado envueltas en palta",
+                "precio": 7000,
+                "foto": "sushi9.jpg"
+            },
+            "30_Vip": {
+                "id": 6,
+                "nombre": "30 Vip",
+                "descripcion": "10 piezas fritas pollo queso, 10 piezas envueltas en sesamo kanikama palta queso, 10 piezas envueltas en palta salmon queso.",
+                "precio": 10000,
+                "foto": "sushi9.jpg"
+            },
+            "40_Vip": {
+                "id": 7,
+                "nombre": "40 Vip",
+                "descripcion": "10 Piezas. Fritas: Pollo queso, 10 piezas. Fritas: Kanikama cebollin queso, 10 Piezas. Envueltas en Palta: Camaron apanado queso, 10 Piezas Envueltas en Sesamo: Kanikama palta queso.",
+                "precio": 12000,
+                "foto": "sushi9.jpg"
+            },
+            "50_Vip": {
+                "id": 8,
+                "nombre": "50 Vip",
+                "descripcion": "10 Pieza. Fritas: Pollo queso, 10 Piezas Fritas: Kanikama ceboll\u00c3\u00adn queso, 10 Piezas Envueltas en Palta: Camaron palta queso, 10 piezas Envueltas en Queso: Pollo apanado cebollin, 10 Piezas Envueltas en S\u00c3\u00a9samo: Camar\u00c3\u00b3n palta queso.",
+                "precio": 15000,
+                "foto": "sushi9.jpg"
+            }
+        },
+        "Promociones Premium": {
+            "20_Premium": {
+                "id": 9,
+                "nombre": "20 Premium",
+                "descripcion": ".",
+                "precio": 18000,
+                "foto": "sushi9.jpg"
+            },
+            "30_Premium": {
+                "id": 10,
+                "nombre": "30 Premium",
+                "descripcion": ".",
+                "precio": 12000,
+                "foto": "sushi9.jpg"
+            },
+            "40_Premium": {
+                "id": 11,
+                "nombre": "40 Premium",
+                "descripcion": ".",
+                "precio": 23500,
+                "foto": "sushi9.jpg"
+            },
+            "50_Premium": {
+                "id": 12,
+                "nombre": "50 Premium",
+                "descripcion": ".",
+                "precio": 31000,
+                "foto": "sushi9.jpg"
+            }
+        },
+        "Promociones Hot": {
+            "10_Hot": {
+                "id": 13,
+                "nombre": "10 Hot",
+                "descripcion": ".",
+                "precio": 18000,
+                "foto": "sushi9.jpg"
+            },
+            "20_Hot": {
+                "id": 14,
+                "nombre": "20 Hot",
+                "descripcion": ".",
+                "precio": 12000,
+                "foto": "sushi9.jpg"
+            },
+            "30_Hot": {
+                "id": 15,
+                "nombre": "30 Hot",
+                "descripcion": ".",
+                "precio": 23500,
+                "foto": "sushi9.jpg"
+            },
+            "40_Hot": {
+                "id": 16,
+                "nombre": "40 Hot",
+                "descripcion": ".",
+                "precio": 31000,
+                "foto": "sushi9.jpg"
+            },
+            "50_Hot": {
+                "id": 17,
+                "nombre": "50 Hot",
+                "descripcion": ".",
+                "precio": 31000,
+                "foto": "sushi9.jpg"
+            }
+        },
+        "Extras": {
+            "soya": {
+                "id": 18,
+                "nombre": "soya 3oz",
+                "descripcion": "Soya extra de 3oz ",
+                "precio": 800,
+                "foto": "sushi9.jpg"
+            }
+        },
+        "Bebidas": {
+            "19_bebida_Coca_cola_1.5": {
+                "id": 19,
+                "nombre": "bebida Coca cola 1.5",
+                "descripcion": "cocacola normal de 1.5 lts",
+                "precio": 2500,
+                "foto": "sushi9.jpg"
+            },
+            "20_Fanta_1.5": {
+                "id": 20,
+                "nombre": "Fanta 1.5",
+                "descripcion": "Fanta Naranja de 1.5 lts",
+                "precio": 2500,
+                "foto": "sushi9.jpg"
+            }
+        }
+
+    }
+}

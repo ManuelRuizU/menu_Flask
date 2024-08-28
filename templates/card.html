@@ -1,0 +1,46 @@
+<!-- cards.html -->
+<div class="container mt-5">
+    <!-- Loop through categories -->
+    {% for category, items in promociones.items() %}
+        <div id="{{ category|replace(' ', '-') }}" class="mt-5">
+            <h2 class="text-center">{{ category }}</h2>
+            <div class="row">
+                <!-- Loop through items in each category -->
+                {% for key, item in items.items() %}
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="{{ url_for('static', filename='img/' + item['foto']) }}" class="card-img-top" alt="{{ item['nombre'] }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item['nombre'] }}</h5>
+                                <p class="card-text"><strong>Precio: </strong>${{ item['precio'] }} clp</p>
+                                <a href="#" class="btn btn-primary bi bi-bag-plus-fill rounded-circle"></a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+
+    <!-- Loop through other categories -->
+    {% for category, items in otras_categorias.items() %}
+        <div id="{{ category|replace(' ', '-') }}" class="mt-5">
+            <h2 class="text-center">{{ category }}</h2>
+            <div class="row">
+                <!-- Loop through items in each category -->
+                {% for key, item in items.items() %}
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="{{ url_for('static', filename='img/' + item['foto']) }}" class="card-img-top" alt="{{ item['nombre'] }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item['nombre'] }}</h5>
+                                <p class="card-text"><strong>Precio: </strong>${{ item['precio'] }}</p>
+                                <a href="#" class="btn btn-primary bi bi-bag-plus-fill rounded-circle"></a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
