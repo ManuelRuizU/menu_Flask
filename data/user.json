@@ -1,0 +1,6 @@
+[
+    {
+        "email": "manu",
+        "password": "scrypt:32768:8:1$cc4080ZyZ7gAKUo5$dc4d5e48df4a95db46b09982443a7e1da3a07fa3347eef7fc2ab4560ae3aacf27fd160c86604a469aed9e5cd2a79ade34d66a4182b31b024f9aa9463742e66c2"
+    }
+]

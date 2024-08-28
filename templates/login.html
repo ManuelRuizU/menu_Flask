@@ -1,0 +1,32 @@
+<!--login.html-->
+
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h2>Iniciar Sesión</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <div>
+            {{ form.username.label }}<br>
+            {{ form.username(size=32) }}<br>
+            {% for error in form.username.errors %}
+                <span style="color: red;">[{{ error }}]</span><br>
+            {% endfor %}
+        </div>
+        <div>
+            {{ form.password.label }}<br>
+            {{ form.password(size=32) }}<br>
+            {% for error in form.password.errors %}
+                <span style="color: red;">[{{ error }}]</span><br>
+            {% endfor %}
+        </div>
+        {{ form.submit() }}
+    </form>
+
+</div>
+
+{% endblock %}
+
+
+

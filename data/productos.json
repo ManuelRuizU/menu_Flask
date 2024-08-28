@@ -58,6 +58,13 @@
                 "descripcion": "10 Pieza. Fritas: Pollo queso, 10 Piezas Fritas: Kanikama ceboll\u00c3\u00adn queso, 10 Piezas Envueltas en Palta: Camaron palta queso, 10 piezas Envueltas en Queso: Pollo apanado cebollin, 10 Piezas Envueltas en S\u00c3\u00a9samo: Camar\u00c3\u00b3n palta queso.",
                 "precio": 15000,
                 "foto": "sushi9.jpg"
+            },
+            "21_80_Vip": {
+                "id": 21,
+                "nombre": "80 Vip",
+                "descripcion": "lorem ipsus",
+                "precio": 25000,
+                "foto": "sushi9.jpg"
             }
         },
         "Promociones Premium": {
@@ -152,6 +159,5 @@
                 "foto": "sushi9.jpg"
             }
         }
-
     }
 }

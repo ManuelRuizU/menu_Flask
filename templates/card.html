@@ -1,4 +1,5 @@
 <!-- cards.html -->
+<!-- card.html -->
 <div class="container mt-5">
     <!-- Loop through categories -->
     {% for category, items in promociones.items() %}
@@ -12,7 +13,15 @@
                             <img src="{{ url_for('static', filename='img/' + item['foto']) }}" class="card-img-top" alt="{{ item['nombre'] }}">
                             <div class="card-body">
                                 <h5 class="card-title">{{ item['nombre'] }}</h5>
-                                <p class="card-text"><strong>Precio: </strong>${{ item['precio'] }} clp</p>
+                                <p class="card-text"><strong>Precio: </strong>${{ item['precio'] }}</p>
+                                <!-- Info Button -->
+                                <button class="btn btn-info" data-toggle="modal" data-target="#myModal" 
+                                        data-title="{{ item['nombre'] }}" 
+                                        data-description="{{ item['descripcion'] }}" 
+                                        data-photo="{{ url_for('static', filename='img/' + item['foto']) }}" 
+                                        data-price="{{ item['precio'] }}">
+                                    Info
+                                </button>
                                 <a href="#" class="btn btn-primary bi bi-bag-plus-fill rounded-circle"></a>
                             </div>
                         </div>
@@ -35,6 +44,14 @@
                             <div class="card-body">
                                 <h5 class="card-title">{{ item['nombre'] }}</h5>
                                 <p class="card-text"><strong>Precio: </strong>${{ item['precio'] }}</p>
+                                <!-- Info Button -->
+                                <button class="btn btn-info" data-toggle="modal" data-target="#myModal" 
+                                        data-title="{{ item['nombre'] }}" 
+                                        data-description="{{ item['descripcion'] }}" 
+                                        data-photo="{{ url_for('static', filename='img/' + item['foto']) }}" 
+                                        data-price="{{ item['precio'] }}">
+                                    Info
+                                </button>
                                 <a href="#" class="btn btn-primary bi bi-bag-plus-fill rounded-circle"></a>
                             </div>
                         </div>
@@ -44,3 +61,8 @@
         </div>
     {% endfor %}
 </div>
+
+<!-- Incluir el modal -->
+{% block modal %}
+    {% include 'modal.html' %}
+{% endblock %}
